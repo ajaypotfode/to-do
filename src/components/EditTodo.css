@@ -1,0 +1,48 @@
+.edit-todo-container {
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: transparent;
+    padding: 30px 40px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #7111ef;
+  }
+  
+  .edit-todo-container h2 {
+    text-align: center;
+    color:#c6c4c4;
+    margin-bottom: 20px;
+  }
+  
+  .edit-todo-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .edit-todo-input {
+    padding: 10px;
+    border:1px solid  #00ccff;
+    color: white;
+    border-radius: 4px;
+    outline: none;
+    margin-bottom: 20px;
+    font-size: 16px;
+    background-color: transparent;
+  }
+  
+  /* .edit-todo-input:focus {
+    border-color: #007BFF;
+  } */
+  
+  .edit-todo-button {
+    padding: 10px;
+    border: none;
+    background-color: #7111ef;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  

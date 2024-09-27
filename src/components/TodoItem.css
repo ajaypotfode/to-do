@@ -1,0 +1,47 @@
+.todo-item {
+    background-color: transparent;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #7111ef;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s;
+    color: white;
+  }
+  
+  
+  .todo-item.completed span {
+    text-decoration: line-through;
+    color: #888;
+  }
+  
+  .todo-item span {
+    flex-grow: 1;
+    cursor: pointer;
+  }
+  
+  .delete-button {
+    background: none;
+    border: none;
+    color: #ff4d4d;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s;
+    margin-left: 20px;
+  }
+  
+  .delete-button:hover {
+    color: #cc0000;
+  }
+  .edit-button{
+    padding: 10px 20px;
+    border: 0.2px solid  #00ccff;
+    /* background-color: #7111ef; */
+    color: white;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+  }
